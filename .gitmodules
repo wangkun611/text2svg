@@ -1,0 +1,3 @@
+[submodule "libs/getoptPlusPlus"]
+	path = libs/getoptPlusPlus
+	url = https://github.com/vlofgren/getoptPlusPlus.git
