@@ -13,9 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ReadMe.txt" />
+    <Filter Include="libs">
+      <UniqueIdentifier>{692ddbf1-1fd1-44c2-afa5-05b356b89ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\getoptPlusPlus">
+      <UniqueIdentifier>{c47b190c-7512-476f-85b1-94cb2ed4db0f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -23,6 +26,9 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\getoptPlusPlus\getoptpp.h">
+      <Filter>libs\getoptPlusPlus</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -32,5 +38,11 @@
     <ClCompile Include="text2svg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="libs\getoptPlusPlus\getoptpp.cc">
+      <Filter>libs\getoptPlusPlus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
